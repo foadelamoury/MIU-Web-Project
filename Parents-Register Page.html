@@ -1,11 +1,15 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-<title> Parents Login Page</title>
+      <title> Parents Login Page</title>
     </head>
+
+    <script type="text/javascript" src="Parent_Register_Validate.js"></script>
+
     <body>
-        <h2>Child Informartion</h2> 
-        <form action=><!--php page-->
+        <h2>Child Informartion</h2>
+        <form name="parentFormRegister" action="" onsubmit="return validateParentFormRegister()" method="post">
         First Name : <br>
         <input type="text" Name="ChildFirstName"> <br>
         Last Name : <br>
@@ -28,6 +32,6 @@
 
       <input type="submit">
     </form>
-        
+
     </body>
 </html>

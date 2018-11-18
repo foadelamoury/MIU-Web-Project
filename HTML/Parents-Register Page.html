@@ -3,10 +3,13 @@
     <head>
 <title> Parents Login Page</title>
     </head>
+
+    <script type="text/javascript" src="Parent_Register_Validate.js"></script>
+    
     <body>
+      <form name="parentFormRegister" action="" onsubmit="return validateParentFormRegister()" method="post">
         <fieldset>
             <legend> Guardian Information </legend>
-        <form action=>
         First Name : <br>
         <input type="text" Name="GuardianFirstName"> <br>
         Last Name : <br>
@@ -57,8 +60,8 @@
         <input type="Text" Name="GuardianProfession"><br>
       <input type="submit">
 
-    </form>
-</fieldset>
 
+        </fieldset>
+      </form>
     </body>
 </html>

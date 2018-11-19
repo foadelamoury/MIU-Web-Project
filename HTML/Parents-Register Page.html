@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
     <head>
       <title> Parents Login Page</title>
@@ -7,61 +8,34 @@
     <script type="text/javascript" src="Parent_Register_Validate.js"></script>
 
     <body>
-      <form name="parentFormRegister" action="" onsubmit="return validateParentFormRegister()" method="post">
-        <fieldset>
-            <legend> Guardian Information </legend>
+        <h2>Child Informartion</h2>
+        <form name="parentFormRegister" action="" onsubmit="return validateParentFormRegister()" method="post">
+          <fieldset>
+                  <legend>Guardian information:</legend>
         First Name : <br>
-        <input type="text" Name="GuardianFirstName"> <br>
+        <input type="text" Name="ChildFirstName"> <br>
         Last Name : <br>
-        <input type="text" Name ="GuardianLastName"> <br>
+        <input type="text" Name ="ChildLastName"> <br>
         Family Name : <br>
-        <input type="text" Name="GuardianFamilyName"> <br>
+        <input type="text" Name="ChildFamilyName"> <br>
         Age :<br>
-        <input type="number" Name="GuardianAge"><br>
-
-        Gender : <br>
-        <input type="radio" Name="GuardianGender" > Male <br>
-        <input type="radio" Name="GuardianGender" > Female <br>
-
+        <input type="number" Name="ChildAge"><br>
         Date Of Birth :<br>
+        <input type="text" Name="ChildDateOfBirth"><br>
+        Gender : <br>
+        <input type="radio" Name="ChildGender" > Boy <br>
+        <input type="radio" Name="ChildGender" > Girl <br>
+        Hobbies : <br>
+        <input type="text" Name="ChildHobbies"><br>
+        Any Medical Problems : <br>
+        <input type="text" Name="ChildMaedicalProblems"><br>
+       Any Disability : <br>
+        <input type="text" Name="ChildDisability"><br>
 
-        <input type="text" Name="GuardianDateOfBirth"><br>
-
-        Address : <br>
-
-        <input type="text" Name="GuardianAddress"><br>
-
-        Building Number : <br>
-
-        <input type="number" Name="GuardianBuilding-Number"><br>
-
-        Flat Number : <br>
-
-        <input type="number" Name="GuardianFlat-Number"><br>
-
-        Mobile Number : <br>
-
-        <input type="Number" Name="GuardianMobile-Number"><br>
-
-        Home Telephone : <br>
-
-        <input type="Number" Name="GuardianHome-Telephone"><br>
-
-        Email : <br>
-
-        <input type="text" Name="GuardianEmail"><br>
-
-        National ID : <br>
-
-        <input type="Number" Name="GuardianNational-Number"><br>
-
-       Guardian Profession : <br>
-
-        <input type="Text" Name="GuardianProfession"><br>
       <input type="submit">
 
+      </fieldset>
+    </form>
 
-        </fieldset>
-      </form>
     </body>
 </html>
